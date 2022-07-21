@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    background-color: pink;
+    color: white;
+    font-family: "poppins", sans-serif;
+    min-height: 100vh;
+}
+header{
+    font-size: 16px;
+}
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form input, form button{
+    padding: 8px;
+    font-size: 32px;
+    border: none;
+    background: white;
+}
+form button{
+    color: #d88771;
+    background: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+form button:hover{
+    background: #d88771;
+    color: white;
+}
